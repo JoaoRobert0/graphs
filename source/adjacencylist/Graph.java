@@ -3,8 +3,8 @@ package source.adjacencylist;
 import java.util.ArrayList;
 
 public class Graph {
-    private ArrayList<Vertex> vertices;
-    private ArrayList<ArrayList<Edge>> adjList;
+    protected ArrayList<Vertex> vertices;
+    protected ArrayList<ArrayList<Edge>> adjList;
 
     public Graph() {
         vertices = new ArrayList<>();
