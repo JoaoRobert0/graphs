@@ -6,6 +6,7 @@ public class Vertex {
     public String color;
     public Vertex father;
     public int distance;
+    public int f;
 
     public static final int INFINITY = Integer.MAX_VALUE; 
 
@@ -15,6 +16,7 @@ public class Vertex {
         this.color = "white";
         this.father = null;
         this.distance = INFINITY;
+        this.f = 0;
     }
 
     @Override
